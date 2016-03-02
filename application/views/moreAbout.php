@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Welcome to More about us</title>
 
 	<style type="text/css">
 
@@ -68,14 +68,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to AboutPage!</h1>
+	<h1>Welcome to More about us!!</h1>
 
-	<div id="body">
 
-	<ul>
-		<li> <a href="<?= base_url(); ?>index.php/about/moreAbout/"> More about us...</a> </li>
 
-	</ul>
 
 		</div>
 

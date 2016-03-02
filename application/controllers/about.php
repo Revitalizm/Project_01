@@ -8,5 +8,14 @@ class About extends CI_Controller {
 	{
 		$data['title'] = 'About Page';
 		$data['page'] = 'about';
-		$this->load->view('templates/main', $data);	}
+		$this->load->view('templates/main', $data);	
+	}
+
+		public function moreAbout() {
+
+		$data['title'] = 'More about us...';
+		$data['page'] = 'moreAbout';
+		$this->load->view('templates/main', $data);	
+
+		}
 }

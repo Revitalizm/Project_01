@@ -70,11 +70,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div id="container">
 	<h1>Welcome to GalleryPage!</h1>
 
-	<div id="body">
+
+	<?php if($li): ?>
+		<div id="body">
 
 			<ul class="cat">
 				<?= $li; ?>
 			</ul>
+	<?php else: ?>
+		<span>No categories found...</span>
+	<?php endif; ?>
+
+
 
 		</div>
 

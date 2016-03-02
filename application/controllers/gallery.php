@@ -8,7 +8,7 @@ class Gallery extends CI_Controller {
 	{
 		$this->load->model('model_gallery');
 		$data['title'] = 'Gallery Page';
-		$date['li'] = $this->model_gallery->getCategories();
+		$data['li'] = $this->model_gallery->getCategories();
 		$data['page'] = 'gallery';
 		$this->load->view('templates/main', $data);
 	}
